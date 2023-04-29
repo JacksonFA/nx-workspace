@@ -32,7 +32,7 @@ async function bootstrap() {
   );
   await app.listen();
   Logger.log(
-    `🚀 Application is running`,
+    `🚀 Application is running on: https://test2-rdv4.onrender.com`,
     'AUTH-MICROSERVICE'
   );
 }
