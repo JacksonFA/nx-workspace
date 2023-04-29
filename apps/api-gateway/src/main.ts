@@ -15,7 +15,7 @@ async function bootstrap() {
   const port = process.env.PORT || 3333;
   await app.listen(port);
   Logger.log(
-    `🚀 Application is running on: http://localhost:${port}/${globalPrefix}`,
+    `🚀 Application is running on: https://test1-4lba.onrender.com/${globalPrefix}`,
     'API-GATEWAY'
   );
 }
