@@ -27,7 +27,7 @@ async function bootstrap() {
   );
   await app.listen();
   Logger.log(
-    `🚀 Application is running`,
+    `🚀 Payments-Microservice is running on: https://test1-4lba.onrender.com`,
     'PAYMENTS-MICROSERVICE'
   );
 }
